@@ -1,3 +1,14 @@
-const dictionary = [{name:"etgh",grade:92,possession:"computer",homework:'alot',teachers:'mrs.m,mr.m'}]
+const dictionary = {
+    name1:'ethan',
+    teachers:['mrs.m','mr.michealwhale','mr.clengo','mr.m']
+}
 
-console.log(dictionary.grade)
+console.log(dictionary)
+
+
+
+for (var i = 0;i <=3; i++){
+    console.log(i)
+
+}
+
