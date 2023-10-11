@@ -30,7 +30,11 @@ const student = [
 ]
 
 
-//student.forEach((i)=>console.log(i.name1))
+//student.forEach((i)=>console.log(i.name1)) part 1
+let x = student.forEach((i)=>console.log(i.name1))
+
+
+
 
 
 
@@ -39,8 +43,8 @@ const student = [
 
 
 
-let variable = student.filter((i) => i.graduated.length < 5)
-variable.forEach((x)=>console.log(x.graduated))
+//let variable = student.filter((i) => i.graduated.length < 5)part3
+//variable.forEach((x)=>console.log(x.graduated))part3
 
 
 
