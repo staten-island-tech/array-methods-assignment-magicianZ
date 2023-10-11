@@ -15,12 +15,12 @@ const dictionary = {
 const student = [
     {
         name1:'e',
-        graduated:'nathan'
+        graduated:'naen'
 
     },
     {
         name1:'d',
-        graduated:'ethan'
+        graduated:'etn'
     },
     {
         name1:'f',
@@ -38,11 +38,12 @@ const student = [
 //student.forEach((i) => console.log(i.graduated))
 
 
+
 let variable = student.filter((i) => i.graduated.length < 5)
+variable.forEach((x)=>console.log(x.graduated))
 
 
 
-console.log(variable)
 
 
 
