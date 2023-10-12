@@ -31,7 +31,11 @@ const student = [
 
 
 //student.forEach((i)=>console.log(i.name1)) part 1
-let x = student.forEach((i)=>console.log(i.name1))
+const x = student.forEach((i)=>{
+console.log(i.name1);
+console.log(i.graduated);
+})
+console.log(x)
 
 
 
