@@ -1,9 +1,5 @@
-const dictionary = {
-    name1:'ethan',
-    teachers:['mrs.m','mr.michealwhale','mr.clengo','mr.m']
-}
-//teachers1 = ['mrs.m','mr.michealwhale','mr.clengo','mr.m']
 
+//teachers1 = ['mrs.m','mr.michealwhale','mr.clengo','mr.m']
 
 
 
@@ -12,30 +8,43 @@ const dictionary = {
 //teachers1.forEach((teacher)=>console.log(teacher))
 
 
-const student = [
+const students = [
     {
-        name1:'e',
-        graduated:'naen'
+        name1:'Ryan',
+        graduated:true,
+        teachers:['goyco','zeregea'],
+        id:24635643
+        
 
     },
     {
-        name1:'d',
-        graduated:'etn'
+        name1:'Nathan ',
+        graduated:true,
+        teachers:['whalen','macula'],
+        id:234092821
     },
     {
-        name1:'f',
-        graduated:'truisten'
+        name1:'Ethan',
+        graduated:false,
+        teachers:['buro','morra'],
+        id:221009566
     },
 
 ]
 
 
 //student.forEach((i)=>console.log(i.name1)) part 1
-const x = student.forEach((i)=>{
+/* const x = student.forEach((i)=>{
 console.log(i.name1);
 console.log(i.graduated);
 })
-console.log(x)
+console.log(x)//part2 */
+
+console.log( students.forEach((student)=> student.teachers.forEach((teacher)=> console.log(teacher)))
+)
+
+
+
 
 
 
@@ -58,8 +67,7 @@ console.log(x)
 
 
 
-//const graduated = students.filter((student)=> student.graduated === trueor student.graduated)
-//console.log(graduated);
+
 
 
 
