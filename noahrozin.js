@@ -12,7 +12,7 @@ const students = [
     {
         name1:'Ryan',
         graduated:true,
-        teachers:['goyco','zeregea'],
+        teachers:['goyco','zeregea','michian','rerick'],
         id:24635643
         
 
@@ -20,7 +20,7 @@ const students = [
     {
         name1:'Nathan ',
         graduated:true,
-        teachers:['whalen','macula'],
+        teachers:['whalen','macula','mccarthy'],
         id:234092821
     },
     {
@@ -34,14 +34,10 @@ const students = [
 
 
 //student.forEach((i)=>console.log(i.name1)) part 1
-/* const x = student.forEach((i)=>{
-console.log(i.name1);
-console.log(i.graduated);
-})
-console.log(x)//part2 */
 
-console.log( students.forEach((student)=> student.teachers.forEach((teacher)=> console.log(teacher)))
-)
+
+//console.log(students.forEach((student)=> student.teachers.forEach((teacher)=> console.log(teacher)))
+//) //part2
 
 
 
@@ -59,6 +55,9 @@ console.log( students.forEach((student)=> student.teachers.forEach((teacher)=> c
 //let variable = student.filter((i) => i.graduated.length < 5)part3
 //variable.forEach((x)=>console.log(x.graduated))part3
 
+
+let variable = students.filter((teacher) => teacher.teachers.length > 2)
+variable.forEach((x)=>console.log(x.teachers))
 
 
 
